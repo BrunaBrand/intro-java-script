@@ -2,3 +2,5 @@
 
 - Perguntas corretas
 - Entender o problema
+
+[] Operadores matemáticos
