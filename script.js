@@ -40,3 +40,16 @@ if (result) {
       ' estude para sua recuperação! '
   )
 }
+
+/*pode se fazer o algoritmo de outra forma também
+if (average > 6) { colocando a diferença dentro da propria condicional
+  alert('Parabéns, ' + student + '! Sua média foi de: ' + average)
+} else {
+  alert(
+    student +
+      ' sinto muito, sua média foi ' +
+      average +
+      ' estude para sua recuperação! '
+  )
+}
+*/
