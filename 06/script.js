@@ -28,4 +28,9 @@ while (Number(result) != randomNumber) {
   xAttempts++
 }
 //interpolação de variável e string | template strings
-alert(`Parabéns! Você advinhou o número em ${xAttempts} tentativas`)
+
+if (xAttempts > 1) {
+  alert(`Parabéns! Você advinhou o número em ${xAttempts} tentativas`)
+} else {
+  alert(`Parabéns! Você advinhou o número em ${xAttempts} tentativa`)
+}
