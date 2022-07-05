@@ -6,11 +6,12 @@
 
 //variáveis criadas dentro do laço não são visíveis para os comandos que estão fora
 
-let itens = []
+let itens = [] //variável com array vazio
+
 //sempre que quiser acessar um array, comece pela posição 0, 1, 2 ......
 //arrays precisam começar da posição 0
 
-/*estrutura de repetição*/ /*variável de controle ja inicia com 0*/ /*enquanto*/ /*pegue o item e adc +1*/
+//estrutura de repetição | variável de controle ja inicia com 0 | enquanto | pegue o item e adc +1
 for (let item = 0; item < 10; item++) {
   let itemName = prompt('Digite o item' + (item + 1))
   itens[item] = itemName

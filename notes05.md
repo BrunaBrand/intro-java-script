@@ -7,3 +7,5 @@
 -Laço de repetição
 for()
 [] Vetores (Arrays)
+++ sinal de incremento: o valor + 1
+tipo de dado: undefined (dado indefinido)
