@@ -11,4 +11,9 @@ Perguntas a serem feitas:
 
 # Ferramenta da linguagem que abordaremos
 
+[]loop while
+[] arrays e funções de arrays (.push por exemplo)
+[]condicional switch e if/else
+[]template literals (strings)
+
 `essa opção pode fazer com que o código possa quebrar linha`
