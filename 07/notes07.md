@@ -17,3 +17,20 @@ Perguntas a serem feitas:
 []template literals (strings)
 
 `essa opção pode fazer com que o código possa quebrar linha`
+
+//eliminando o uso da variável de controle com o push, basicamente ele coloca os dados dentro de cada espaço de memória na variável.
+if (option == 1) {
+let item = prompt('Digite o nome do item')
+itens.push(item)
+} else if (option == 2) {
+if (itens.length == 0) {
+alert('Não existem itens cadastrados')
+} else {
+alert(itens)
+}
+} else {
+alert('Goodbye')
+}
+
+console.log(option, itens)
+}
