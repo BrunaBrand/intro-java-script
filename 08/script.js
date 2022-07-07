@@ -13,7 +13,7 @@
 //criando objetos no js, ele não pode ficar solto assim na pag, precisa de uma variável para pertencer
 //essa maneira de criar se chama de object literal, colocando na mão cada uma das propriedades do objeto smartp
 
-const pacients = [
+const patients = [
   {
     name: 'Luiz',
     age: 20,
@@ -33,3 +33,13 @@ const pacients = [
     height: 180
   }
 ]
+//quando se coloca um ponto, ele abre várias opções de métodos e propriedades
+let patientsName = []
+
+//para 1 paciente de pacientes faça um bloco de ação
+
+for (let patient of patients) {
+  patientsName.push(patient.name)
+}
+
+alert(patientsName)
