@@ -10,3 +10,5 @@ Perguntas a serem feitas:
 6. Qual é a saída, ou quais os dados de saída, esperada (outputs)
 
 # Ferramenta da linguagem que abordaremos
+
+`essa opção pode fazer com que o código possa quebrar linha`
